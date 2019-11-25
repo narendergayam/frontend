@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="u_id"
+        android:textSize="30dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/work1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Firstname"
+        android:textSize="25dp"
+        android:inputType="text"
+         />
+
+    <EditText
+        android:id="@+id/work2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="lastname"
+        android:textSize="25dp"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/work3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:textSize="25dp"
+        android:inputType="text"
+        />
+    <EditText
+    android:id="@+id/work4"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="phone"
+    android:textSize="25dp"
+    android:inputType="text"
+    />
+    <EditText
+        android:id="@+id/work5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="address"
+        android:textSize="25dp"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:text="Register"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:text="list"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
